@@ -1,0 +1,125 @@
+* {
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+body {
+    /* margin: 0;
+    padding: 0; */
+}
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+
+}
+header {
+    background-color: #398689;
+}
+main {
+    background-color: #A7DDA7;
+    height: 100vh;
+}
+footer {
+    background-color: #398689;
+}
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.left-header {
+    flex-basis: 50%;
+}
+.right-header {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+/* Login Module Styles */
+#login-section {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.login-module {
+    padding: 1rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+.login-row {
+    padding: 1rem 0;
+    text-align: center;
+}
+.login-module label {
+    width: 15rem;
+}
+.login-module button {
+    border: none;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-size: 1.1rem;
+    background-color: #398689;
+}
+/* Log Off Styles */
+#logoffButton {
+    border: none;
+    display: none;
+}
+
+/* Chores Styles */
+#chores-section {
+    display: none;
+}
+#chores-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+.chore {
+    flex-basis: 18%;
+    background-color: #0B476D;
+    color: white;
+    padding: 1rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#users-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: center;
+
+}
+.user-section {
+    flex-basis: 35%;
+    background-color: white;
+    margin: .25rem;
+    min-height: 200px;
+}
+.user-section h3 {
+    text-align: center;
+}
+.assigned-chores {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    
+}
+.chore-assigned {
+    background-color: #0B476D;
+    color: white;
+    padding: 1rem;
+    margin: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 1rem;
+    
+   
+}

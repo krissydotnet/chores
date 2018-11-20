@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Today's Chores</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="header">
+        <div class="left-header">
+            <h1>Daily Chores</h1>
+        </div>
+        <div class="right-header">
+            <button type="submit" id="logoffButton">Log Off</button>
+        </div>
+    </div>
+    </div>
+    </header>
+    <main>
+            <div class="container">
+            <section id="chores-section">
+
+                <div class="message-container">
+                    <!-- <h2 id="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quisquam voluptate perspiciatis non, nobis excepturi beatae at deleniti velit explicabo sed harum. Consequuntur mollitia sequi dignissimos dicta ipsum neque tenetur.</h2> -->
+                </div>
+                
+
+                <div id="chores-container">
+                        <h2>Available</h2>
+                    <div id="chores-list" ondrop="drop(event)"></div>
+                </div>
+                <div class="chores-assigned">
+                    <h2>Chores Assigned</h2>
+                    <div id="users-container">
+
+                    </div>
+                </div>
+            </section>
+            <section id="login-section">
+                <div class="login-module">
+                    <div class="login-row">
+                    <label for="userName">User Name:</label>
+                    <input type="text" id="userName" name="userName"></div>
+                    <div class="login-row">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"></div>
+                    <div class="login-row">
+                    <button type="submit" id="loginButton">Login</button>
+                </div>
+                </div>
+            </section>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/chores.js"></script>
+</body>
+</html>

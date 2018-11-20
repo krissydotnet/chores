@@ -1,0 +1,116 @@
+{    "chores": [
+            {   "choreId": 1,
+                "name": "Clean bedroom",
+                "assignedTo": [],
+                "maxAssigned": 4,
+                "value": 1,
+                "completed": false
+            },
+            {
+                "choreId": 2,
+                "name": "Clean bathrooms",
+                "assignedTo": [],
+                "maxAssigned": 4,
+                "value": 1,
+                "completed": false
+            },
+            {   "choreId": 3,
+                "name": "Clean living room",
+                "assignedTo": [],
+                "maxAssigned": 2,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 4,
+                "name": "Clean playroom",
+                "assignedTo": [],
+                "maxAssigned": 2,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 5,
+                "name": "Clean off table",
+                "assignedTo": ["Emma"],
+                "maxAssigned": 1,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 6,
+                "name": "Set the table",
+                "assignedTo": [],
+                "maxAssigned": 1,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 7,
+                "name": "Sweep the floor",
+                "assignedTo": ["Emma"],
+                "maxAssigned": 1,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 8,
+                "name": "Wash dishes",
+                "assignedTo": [],
+                "maxAssigned": 2,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 9,
+                "name": "Wash laundry",
+                "assignedTo": [],
+                "maxAssigned": 2,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 10,
+                "name": "Fold laundry",
+                "assignedTo": [],
+                "maxAssigned": 2,
+                "value": 1,
+                "completed": false
+            },
+            {   
+                "choreId": 11,
+                "name": "Take out garbage",
+                "assignedTo": [],
+                "maxAssigned": 2,
+                "value": 1,
+                "completed": false
+            }
+        
+    ],
+    "users" : [
+        {
+            "name": "Mommy",
+            "type": "admin",
+            "password": "disney"
+        
+        },
+        {
+            "name": "Daddy",
+            "type": "admin",
+            "password": "auburn"
+        },
+        { "name": "Emma",
+          "type": "user",
+          "points": 0,
+          "password": "",
+          "code": "041976"
+        },
+        {
+            "name": "Jacob",
+            "type": "user",
+            "points": 0,
+            "password": "",
+            "code": "9753"
+        }
+    ]
+}
